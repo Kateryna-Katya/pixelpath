@@ -62,7 +62,7 @@ background: rgb(61, 2, 224);
     background-repeat: no-repeat;
     background-position: top 128px center;
     background-size: contain;
-    height: 830px;
+    height: 700px;
 }
 .home-container{
     padding-top: 126px;
@@ -102,4 +102,48 @@ right: 0;
     top: 12%;
     left: 9%;
 }
+}
+.bg-section{
+    background-image: url("/img/bg/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 375px 1311px;
+}
+@media only screen and (min-width: 1440px) {
+.bg-section{
+    background-image: url("/img/bg/desk.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1195px 990px;
+}    
+}
+/* SYMBOL MECHANIC */
+.symbols-container{
+    padding-bottom: 610px;
+}
+@media only screen and (min-width: 1440px) {
+ .symbols-container{
+    padding-top: 59px;
+    padding-bottom: 541px;
+ }
+}
+/* ANIMAL COLLECTION FEATURE */
+.animal-section{
+    padding-bottom: 40px;
+}
+.animal-container{
+    border-radius: 50px;
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 357px;
+    background: rgba(255, 255, 255, 0.8);
+        opacity: 0.8;
+}
+@media only screen and (min-width: 1440px) {
+
+.animal-container {
+width: 1195px;
+    height: 254px;
+        padding-top: 49px;
+    }
 }
