@@ -85,3 +85,21 @@ right: 0;
     margin-top:0;
 }   
 }
+/* About */
+.about-img{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.mob{
+    display: none;
+}
+.about-container{
+    position: relative;
+}
+.about-img{
+    display: block;
+    position: absolute;
+    top: 12%;
+    left: 9%;
+}
+}
