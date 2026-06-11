@@ -23,20 +23,14 @@ text-align: left;
 .word-break{
     word-break: break-all;
 }
-.policy-subtitle {
-    font-family: "Oxygen", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.55556;
-    text-align: justify;
-    color: #fff;
-}
 
 .policy-list {
     list-style-type: disc;
     padding-left: 30px;
 }
-
+.policy-number{
+padding-left: 30px;
+}
 .underline {
     text-decoration: underline;
     text-decoration-skip-ink: none;
