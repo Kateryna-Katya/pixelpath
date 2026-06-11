@@ -11,10 +11,7 @@ text-align: left;
     margin-bottom: 40px;
 text-align: left;
 }
-.policy-container{
-    padding-left: 17px;
-    padding-right: 17px;
-}
+
 .text-container {
     display: flex;
     flex-direction: column;
