@@ -1,0 +1,82 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 30px 16px 16px;
+background: #fff;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.cookie-class {
+font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #0a0a30;
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.btn-accept {
+border-radius: 12px;
+    padding: 10px;
+    width: 168px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: #40f;
+    box-sizing: border-box;
+    border: none;
+font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-decline {
+    border: none;
+border-bottom: 2px solid #ea54d1;
+    padding: 10px;
+    width: 175px;
+    height: 40px;
+    background: inherit;
+font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #ea54d1;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 42px 240px;
+    }
+
+    .cookie-class {
+        width: 100%;
+    }
+
+    .cookie-buttons {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 24;
+        gap: 80px;
+
+    }
+}
